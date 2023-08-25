@@ -20,31 +20,6 @@ Implemente uma função que recebe um valor inteiro e retorna 1 se o valor é po
 Implemente uma função que recebe 2 valores inteiros e retorna o maior e uma função que retorne o menor. Usando estas função, implemente a versão delas que recebe 3 e 4 valores;
 Faça um código que receba do usuário uma operação aritmética e dentro de um loop leia números até que o usuário digite 0. Imprima o resultado de aplicar a mesma operação usando todos os números que o usuário digitou, menos o 0;
 
-*EXERCÍCIO 3*
-
-Fazendo a divisão dos arquivos em main.c, ex3.h e ex3.c, implemente as seguintes funções:
-int somatorio(int min, int max): retorna a soma de todos os números entre min e max, inclusive
-int somatorioComPasso(int min, int max, int passo): igual ao anterior, mas usando o passo para incrementar o valor somado
-int somaParImpar(int min, int max, int par): se par != 0, a soma somente dos números pares entre min e max. Se par = 0, a soma dos números ímpares.
-int produtorio(int min, int max): retorna o produto de todos os números entre min e max
-int fatorial(int n): retorna o fatorial do número n
-void fibonacciSeq(int n): imprime a sequência de Fibonacci até n números
-int fibonacci(int pos): retorna o número da sequência de Fibonacci na posição pos
-Use a função main para gerar os testes de todas as funções que você implementou.
-
-*EXERCÍCIO 4*
-
-Seguindo a mesma divisão de arquivos da aula passada, implemente as seguintes funções:
-
-int soma(int v[], int tamanho);
-int subtracao(int v[], int tamanho);
-float media(int v[], int tamanho);
-void duplica(int v[], int v2[], int tamanho);
-int produtoEscalar(int v1[], int v2[], int tamanho);
-void exibe(int m[][], int linhas, int colunas);
-void somaMatrizes(int m1[][], int m2[][], int r[][], int linhas, int colunas);
-void multiplica(int valor, int m[][], int r[][], int linhas, int colunas);
-
 *EXEECÍCIO 5*
 
 Faça um programa em C para armazenar nome, sobrenome e data de nascimento de uma pessoa. Seu programa deve conter:
